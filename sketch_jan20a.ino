@@ -69,7 +69,7 @@ void loop()
     delay(3000);
     lcd.clear();
   }
-  elseif (content.substring(1) == "36 50 32 05")
+  else if (content.substring(1) == "36 50 32 05")
   {
     lcd.setCursor(0,1);
     lcd.clear();
@@ -79,7 +79,7 @@ void loop()
     delay(3000);
     lcd.clear();
   }
-  elseif (content.substring(1) == "B6 63 33 05")
+  else if (content.substring(1) == "B6 63 33 05")
   {
     lcd.setCursor(0,1);
     lcd.clear();
@@ -89,7 +89,7 @@ void loop()
     delay(3000);
     lcd.clear();
   }
-  elseif (content.substring(1) == "46 C7 5E 05")
+  else if (content.substring(1) == "46 C7 5E 05")
   {
     lcd.setCursor(0,1);
     lcd.clear();
@@ -99,13 +99,63 @@ void loop()
     delay(3000);
     lcd.clear();
   }
-  elseif (content.substring(1) == "36 50 32 05")
+  else if (content.substring(1) == "C3 96 C9 83")
   {
     lcd.setCursor(0,1);
     lcd.clear();
-    lcd.print("Josiah Hicks");
+    lcd.print("Hector Lee");
     lcd.setCursor(1,1);
-    lcd.print("EmpID : 2");
+    lcd.print("EmpID : 5");
+    delay(3000);
+    lcd.clear();
+  }
+  else if (content.substring(1) == "D6 AB F9 2F")
+  {
+    lcd.setCursor(0,1);
+    lcd.clear();
+    lcd.print("Elsie Thorne");
+    lcd.setCursor(1,1);
+    lcd.print("EmpID : 6");
+    delay(3000);
+    lcd.clear();
+  }
+  else if (content.substring(1) == "26 AD 20 05")
+  {
+    lcd.setCursor(0,1);
+    lcd.clear();
+    lcd.print("Cora Steele");
+    lcd.setCursor(1,1);
+    lcd.print("EmpID : 7");
+    delay(3000);
+    lcd.clear();
+  }
+  else if (content.substring(1) == "86 D8 58 05")
+  {
+    lcd.setCursor(0,1);
+    lcd.clear();
+    lcd.print("Esther Hoffman");
+    lcd.setCursor(1,1);
+    lcd.print("EmpID : 8");
+    delay(3000);
+    lcd.clear();
+  }
+  else if (content.substring(1) == "B6 ED F3 04")
+  {
+    lcd.setCursor(0,1);
+    lcd.clear();
+    lcd.print("Gemma Byrne");
+    lcd.setCursor(1,1);
+    lcd.print("EmpID : 9");
+    delay(3000);
+    lcd.clear();
+  }
+  else if (content.substring(1) == "36 8F 56 05")
+  {
+    lcd.setCursor(0,1);
+    lcd.clear();
+    lcd.print("Iqra Estrada");
+    lcd.setCursor(1,1);
+    lcd.print("EmpID : 10");
     delay(3000);
     lcd.clear();
   }
